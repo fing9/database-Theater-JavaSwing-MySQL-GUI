@@ -61,7 +61,7 @@ JAVA Swing과 MySQL 데이터베이스를 이용해서 영화관DB를 관리하�
 
 1. 데이터 입력 ->  입력 실행 후, 전체 테이블을 보면 새로운 데이터가 들어온 것이 확인 된다.
 
-![Uploading 스크린샷 2022-11-23 오후 3.38.58.png…]()<img width="899" alt="스크린샷 2022-11-23 오후 3 39 07" src="https://user-images.githubusercontent.com/44383895/203486367-042ef14b-c27e-4c1a-836a-895e920760da.png">
+<img width="209" alt="스크린샷 2022-11-23 오후 3 38 58" src="https://user-images.githubusercontent.com/44383895/203487171-562c3d50-18cf-44cd-bc8f-f361bcbc264d.png"><img width="899" alt="스크린샷 2022-11-23 오후 3 39 07" src="https://user-images.githubusercontent.com/44383895/203486367-042ef14b-c27e-4c1a-836a-895e920760da.png">
 
 2. 삭제 ->  조건식을 movie\_number  =  10011 으로 넣고 삭제 버튼을 누른 후, 전체 데이터를 조회하면 추가했던 영화 정보가 사라진다.
 
