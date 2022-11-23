@@ -1,15 +1,17 @@
 # database-Theater-JavaSwing-MySQL-GUI
 JAVA Swing과 MySQL 데이터베이스를 이용해서 영화관DB를 관리하는 GUI 프로그램
 
+
 # **기술 스택**
 
-<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white">
-<img src="https://img.shields.io/badge/eclipse-2C2255?style=for-the-badge&logo=eclipseide&logoColor=white">
-<img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=MySQL&logoColor=white">
+<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"><img src="https://img.shields.io/badge/eclipse-2C2255?style=for-the-badge&logo=eclipseide&logoColor=white"><img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=MySQL&logoColor=white">
+
 
 # **프로젝트 팀**
 20003201  김성민  /20011683  변성은
+
 김성민 - DataBase 스키마 작성, 사용자 요구사항 구현을 위한 SQL문 설계/작성, Java GUI 설계/구성
+
 
 # **< 요구사항 분석 내용 >**
 
