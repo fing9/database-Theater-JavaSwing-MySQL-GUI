@@ -1,15 +1,17 @@
 # database-Theater-JavaSwing-MySQL-GUI
 JAVA Swing과 MySQL 데이터베이스를 이용해서 영화관DB를 관리하는 GUI 프로그램
 
-** [기술 스택] **
+**기술 스택**
+
 JAVA <img src="https://img.shields.io/badge/JAVA-색상?style=for-the-badge&logo=기술스택아이콘&logoColor=white">
 Swing <img src="https://img.shields.io/badge/Swing-색상?style=for-the-badge&logo=기술스택아이콘&logoColor=white">
-MySQL <img src="https://img.shields.io/badge/MySQL-#4479A1?style=for-the-badge&logo=MySQL&logoColor=blue">
+MySQL <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=MySQL&logoColor=white">
 
+**프로젝트 팀**
 20003201  김성민  /20011683  변성은
+김성민 - DataBase 스키마 작성, 사용자 요구사항 구현을 위한 SQL문 설계/작성, Java GUI 설계/구성
 
-- 요구사항 분석 내용 >
-
+**< 요구사항 분석 내용 >**
 
 
 |항목|설명|
@@ -25,23 +27,22 @@ MySQL <img src="https://img.shields.io/badge/MySQL-#4479A1?style=for-the-badge&l
 
 **<프로그램  테스팅>**
 
-\- **사용자가  관리자인지  회원인지  선택**
+**- 사용자가  관리자인지  회원인지  선택**
 
 ![](Aspose.Words.8477d8cf-82be-48ae-8403-497f3088581a.002.png)
 
-**-관리자**
+**- 관리자**
 
-Ÿ 데이터베이스 초기화 기능
+> 데이터베이스 초기화 기능
 
 ![](Aspose.Words.8477d8cf-82be-48ae-8403-497f3088581a.003.jpeg)
 
-Ÿ 전체 테이블 보기 :  모든 테이블의 내용을 보여주는 기능
+> 전체 테이블 보기 :  모든 테이블의 내용을 보여주는 기능
 
 ![](Aspose.Words.8477d8cf-82be-48ae-8403-497f3088581a.004.jpeg)
 
-Ÿ 데이터베이스에 포함된 모든 테이블에 대한 입력 /삭제 /변경 기능
-
-단 ,  삭제 /변경은 “1개 ”의 고정된 특정 조건이 아닌 “조건식 ”을 입력 받아서 삭제 /변경하는 방식으로 구현해야 함
+> 데이터베이스에 포함된 모든 테이블에 대한 입력 /삭제 /변경 기능
+> 단 ,  삭제 /변경은 “1개 ”의 고정된 특정 조건이 아닌 “조건식 ”을 입력 받아서 삭제 /변경하는 방식으로 구현해야 함
 
 1. 데이터 입력 ->  입력 실행 후, 전체 테이블을 보면 새로운 데이터가 들어온 것이 확인 된다.
 
@@ -51,13 +52,13 @@ MySQL <img src="https://img.shields.io/badge/MySQL-#4479A1?style=for-the-badge&l
 
 2. 삭제 ->  조건식을 movie\_number  =  10011 으로 넣고 삭제 버튼을 누른 후, 전체 데이터를 조회하면 추가했던 영화 정보가 사라진다.
 
-[삭제전 ]
+[삭제전]
 
 ![](Aspose.Words.8477d8cf-82be-48ae-8403-497f3088581a.007.jpeg)
 
 ![](Aspose.Words.8477d8cf-82be-48ae-8403-497f3088581a.008.png)
 
-[삭제후 ]
+[삭제후]
 
 ![](Aspose.Words.8477d8cf-82be-48ae-8403-497f3088581a.009.jpeg)
 
@@ -74,15 +75,13 @@ MySQL <img src="https://img.shields.io/badge/MySQL-#4479A1?style=for-the-badge&l
 
 - 회원 >
 
-Ÿ 모든 영화에 대한 조회 기능 :  영화명, 감독명, 배우명, 장르를 이용한 조
-
-회 (입력 안된 정보는 무시하고 조회함)
+> 모든 영화에 대한 조회 기능 :  영화명, 감독명, 배우명, 장르를 이용한 조회 (입력 안된 정보는 무시하고 조회함)
 
 ->  영화명 필드에 안녕 입력시 영화명에 ‘안녕 ’이 들어간 데이터 검색됨 .
 
 ![](Aspose.Words.8477d8cf-82be-48ae-8403-497f3088581a.013.jpeg)
 
-Ÿ 위에서 조회한 영화에 대한 매 기능
+> 위에서 조회한 영화에 대한 예매 기능
 
 ![](Aspose.Words.8477d8cf-82be-48ae-8403-497f3088581a.014.jpeg)
 
@@ -96,19 +95,19 @@ MySQL <img src="https://img.shields.io/badge/MySQL-#4479A1?style=for-the-badge&l
 
 -> 매 조회를 하면 예매된 것이 확인됨.
 
-Ÿ 본인이 예매한 영화에 대해서 영화명, 상영일, 상영관번호, 좌석번호 및 판매가격 정보를 보여주는 기능
+> 본인이 예매한 영화에 대해서 영화명, 상영일, 상영관번호, 좌석번호 및 판매가격 정보를 보여주는 기능
 
 ![](Aspose.Words.8477d8cf-82be-48ae-8403-497f3088581a.018.jpeg)
 
 -> 아이디를 입력하고 매 조회 버튼을 누르면 매한 영화 정보가 조회됨 .
 
-Ÿ 위에서 표시된 매 정보 중에서 하나를 “클릭 ”하면 해당 예매에 대해
+> 위에서 표시된 매 정보 중에서 하나를 “클릭 ”하면 해당 예매에 대해
 
 서 모든 상영일정 ,  상영관 ,  티켓에 대한 정보를 보여주는 기능
 
 -> 
 
-Ÿ 본인이 매한 영화에 대하여 조회하고 한 개 이상의 예매 정보를 "삭제"하는 기능
+> 본인이 매한 영화에 대하여 조회하고 한 개 이상의 예매 정보를 "삭제"하는 기능
 
 [삭제전]
 
@@ -120,7 +119,7 @@ MySQL <img src="https://img.shields.io/badge/MySQL-#4479A1?style=for-the-badge&l
 
 ![](Aspose.Words.8477d8cf-82be-48ae-8403-497f3088581a.021.jpeg)
 
-Ÿ 본인이 매한 영화에 대하여 조회하여 다른 영화로 예매를 변경하는 기능
+> 본인이 매한 영화에 대하여 조회하여 다른 영화로 예매를 변경하는 기능
 
 ![](Aspose.Words.8477d8cf-82be-48ae-8403-497f3088581a.022.png)
 
@@ -128,7 +127,7 @@ MySQL <img src="https://img.shields.io/badge/MySQL-#4479A1?style=for-the-badge&l
 
 ![](Aspose.Words.8477d8cf-82be-48ae-8403-497f3088581a.023.jpeg)
 
-Ÿ 본인이 매한 영화에 대하여 조회하여 다른 상영 일정으로 변경하는 기능
+> 본인이 매한 영화에 대하여 조회하여 다른 상영 일정으로 변경하는 기능
 
 ![](Aspose.Words.8477d8cf-82be-48ae-8403-497f3088581a.024.jpeg)
 
