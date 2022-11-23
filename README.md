@@ -2,18 +2,28 @@
 JAVA Swing과 MySQL 데이터베이스를 이용해서 영화관DB를 관리하는 GUI 프로그램
 
 
+
+
 # **기술 스택**
 
-<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"><img src="https://img.shields.io/badge/eclipse-2C2255?style=for-the-badge&logo=eclipseide&logoColor=white"><img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=MySQL&logoColor=white">
+<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white">  <img src="https://img.shields.io/badge/eclipse-2C2255?style=for-the-badge&logo=eclipseide&logoColor=white">  <img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=MySQL&logoColor=white">
+
+
 
 
 # **프로젝트 팀**
 20003201  김성민  /20011683  변성은
 
-김성민 - DataBase 스키마 작성, 사용자 요구사항 구현을 위한 SQL문 설계/작성, Java GUI 설계/구성
+
+**김성민**
+1. DataBase 스키마 작성
+2. 사용자 요구사항 구현을 위한 SQL문 작성
+3. Java GUI 설계/구현
 
 
-# **< 요구사항 분석 내용 >**
+
+
+# **요구사항 분석**
 
 
 |항목|설명|
@@ -23,11 +33,15 @@ JAVA Swing과 MySQL 데이터베이스를 이용해서 영화관DB를 관리하�
 |외부  인터페이스  요구 사항|<p>>입력  기능의  경우  반드시  하나의  윈도우  안에서  모든  데이터  기입,  버튼  클릭  한  번으로  구현한다.</p><p>>입력해야  할  속성이  4개라면,  속성1/속성2/속성3/속성4에  대한 입력값을  하나의  GUI  윈도우에서  입력받아야  하며,  저장/취소  버튼이  있어서  저장  (즉,  입력  실행)  혹은  취소  (입력  취소)  기능이 구현되어야  함.</p><p>>사용자  인터페이스는  반드시  GUI  (Graphical  User  Interface)를 사용한다.  단,  GUI  구동에  필요한  라이브러리는  기본  JDK에  포함 되어  있는  것으로  한정한다.</p><p>GUI 화면에서  관리자/회원을  택하여  다음  화면으로  넘어가는  형태로  구현한다.</p>|
 |논리적  데이터베이스 요구사항|<p>영화  :  영화  번호(int),  영화명  (varchar(100)),  상영시간(TIME), 상영등급(varchar(15)),  감독명(varchar(45)),  배우명 (varchar(45)),  장르  (varchar(45)),  영화  소개  (varchar(2000)) 및  개봉일(DATE)</p><p>상영일정:  상영일정번호(int),  영화번호(int),  상영관번호(int),  상영 시작일(date),  상영요일(varchar(45)),  상영회차(int)  및  상영시작시간(TIME)</p><p>상영관:  상영관번호(int),  좌석수(int)  및  상영관사용여부 (varchar(4))</p><p>티켓:  티켓번호(int),  상영일정번호(int),  상영관번호(int),  좌석번호 (int),  예매번호(int),  발권여부(varchar(4)),  표준가격(int)  및  판매 가격(int)</p><p>좌석:  좌석번호(int),  상영관번호(int)  및  좌석사용여부(varchar(4)) 회원고객:  회원아이디(varchar(45)),  고객명(varchar(45)),  휴대폰 번호(varchar(45))  및  전자메일주소(varchar(45))</p><p>예매정보:  예매번호(int),  결제방법(varchar(45)),  결제상태 (varchar(4)),  결제금액(int),  회원아이디(varchar(45))  및   결제일자(DATETIME)</p>|
 
-# **<스키마  정의>**
+
+
+# **DB스키마  정의**
 
 ![](Aspose.Words.8477d8cf-82be-48ae-8403-497f3088581a.001.jpeg)
 
-# **<프로그램  테스팅>**
+
+
+# **프로그램  테스팅**
 
 **- 사용자가  관리자인지  회원인지  선택**
 
