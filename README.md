@@ -44,49 +44,47 @@ JAVA Swing과 MySQL 데이터베이스를 이용해서 영화관DB를 관리하�
 
 **- 사용자가  관리자인지  회원인지  선택**
 
-![](Aspose.Words.8477d8cf-82be-48ae-8403-497f3088581a.002.png)
+<img width="714" alt="스크린샷 2022-11-23 오후 3 38 22" src="https://user-images.githubusercontent.com/44383895/203486302-600d26e6-6220-43fd-b270-349b28775aab.png">
 
 **- 관리자**
 
 > 데이터베이스 초기화 기능
 
-![](Aspose.Words.8477d8cf-82be-48ae-8403-497f3088581a.003.jpeg)
+<img width="1133" alt="스크린샷 2022-11-23 오후 3 38 35" src="https://user-images.githubusercontent.com/44383895/203486318-53616c8b-cd34-4d98-b22c-58a14c39bf99.png">
 
 > 전체 테이블 보기 :  모든 테이블의 내용을 보여주는 기능
 
-![](Aspose.Words.8477d8cf-82be-48ae-8403-497f3088581a.004.jpeg)
+<img width="1131" alt="스크린샷 2022-11-23 오후 3 38 48" src="https://user-images.githubusercontent.com/44383895/203486340-eaae9f87-d740-4925-b9a8-abe28d45e8c9.png">
 
 > 데이터베이스에 포함된 모든 테이블에 대한 입력 /삭제 /변경 기능
 > 단 ,  삭제 /변경은 “1개 ”의 고정된 특정 조건이 아닌 “조건식 ”을 입력 받아서 삭제 /변경하는 방식으로 구현해야 함
 
 1. 데이터 입력 ->  입력 실행 후, 전체 테이블을 보면 새로운 데이터가 들어온 것이 확인 된다.
 
-![](Aspose.Words.8477d8cf-82be-48ae-8403-497f3088581a.005.png)
-
-![](Aspose.Words.8477d8cf-82be-48ae-8403-497f3088581a.006.jpeg)
+![Uploading 스크린샷 2022-11-23 오후 3.38.58.png…]()<img width="899" alt="스크린샷 2022-11-23 오후 3 39 07" src="https://user-images.githubusercontent.com/44383895/203486367-042ef14b-c27e-4c1a-836a-895e920760da.png">
 
 2. 삭제 ->  조건식을 movie\_number  =  10011 으로 넣고 삭제 버튼을 누른 후, 전체 데이터를 조회하면 추가했던 영화 정보가 사라진다.
 
 [삭제전]
 
-![](Aspose.Words.8477d8cf-82be-48ae-8403-497f3088581a.007.jpeg)
+<img width="1138" alt="스크린샷 2022-11-23 오후 3 39 16" src="https://user-images.githubusercontent.com/44383895/203486386-cd45b8a8-7e1c-4695-b8d8-d6d47b3207e3.png">
 
-![](Aspose.Words.8477d8cf-82be-48ae-8403-497f3088581a.008.png)
+<img width="1131" alt="스크린샷 2022-11-23 오후 3 39 23" src="https://user-images.githubusercontent.com/44383895/203486393-c25d1bca-f7a7-4a3b-9dad-d997444eff76.png">
 
 [삭제후]
 
-![](Aspose.Words.8477d8cf-82be-48ae-8403-497f3088581a.009.jpeg)
+<img width="1132" alt="스크린샷 2022-11-23 오후 3 39 32" src="https://user-images.githubusercontent.com/44383895/203486411-e7d2f86f-7ae9-4ac9-af3e-220ba977f5ee.png">
 
 3. 변경
 ->  영화명 범죄도시 2를 범죄도시 1으로 변경하고 전체 테이블을 조회하면 영화명이 변경된 것이 확인된다 .
 
-![](Aspose.Words.8477d8cf-82be-48ae-8403-497f3088581a.010.jpeg)
+<img width="1132" alt="스크린샷 2022-11-23 오후 3 39 40" src="https://user-images.githubusercontent.com/44383895/203486429-46506b6a-6118-4f75-b14e-9732320230c4.png">
 
 ->  범죄도시 2를 범죄도시 1으로 변경
 
-![](Aspose.Words.8477d8cf-82be-48ae-8403-497f3088581a.011.png)
+<img width="395" alt="스크린샷 2022-11-23 오후 3 39 47" src="https://user-images.githubusercontent.com/44383895/203486440-9a03458e-15ff-4d1b-ae86-39d52f820e1e.png">
 
-![](Aspose.Words.8477d8cf-82be-48ae-8403-497f3088581a.012.jpeg)
+<img width="1136" alt="스크린샷 2022-11-23 오후 3 39 57" src="https://user-images.githubusercontent.com/44383895/203486446-9f3dd2b2-ef68-4932-b1fc-7492165058c9.png">
 
 **- 회원**
 
@@ -94,58 +92,56 @@ JAVA Swing과 MySQL 데이터베이스를 이용해서 영화관DB를 관리하�
 
 ->  영화명 필드에 '안녕' 입력시 영화명에 '안녕'이 들어간 데이터 검색됨 .
 
-![](Aspose.Words.8477d8cf-82be-48ae-8403-497f3088581a.013.jpeg)
+<img width="1132" alt="스크린샷 2022-11-23 오후 3 40 04" src="https://user-images.githubusercontent.com/44383895/203486464-dae36108-b68c-45db-934a-4306bd69a276.png">
 
 > 위에서 조회한 영화에 대한 예매 기능
 
-![](Aspose.Words.8477d8cf-82be-48ae-8403-497f3088581a.014.jpeg)
+<img width="1134" alt="스크린샷 2022-11-23 오후 3 40 12" src="https://user-images.githubusercontent.com/44383895/203486469-cf4dbb1d-999c-4a01-af70-d535a2f87f18.png">
 
-![](Aspose.Words.8477d8cf-82be-48ae-8403-497f3088581a.015.png)
+<img width="311" alt="스크린샷 2022-11-23 오후 3 40 17" src="https://user-images.githubusercontent.com/44383895/203486479-8006136f-ace3-4da5-8080-2e3000ab409a.png">
 
-![](Aspose.Words.8477d8cf-82be-48ae-8403-497f3088581a.016.png)
+<img width="782" alt="스크린샷 2022-11-23 오후 3 40 21" src="https://user-images.githubusercontent.com/44383895/203486490-e98c22aa-eea2-45b8-829c-8ddd044f240e.png">
 
 -> 검색된 영화 중 하나를 선택후 예매 정보를 입력하면
 
-![](Aspose.Words.8477d8cf-82be-48ae-8403-497f3088581a.017.jpeg)
+<img width="1132" alt="스크린샷 2022-11-23 오후 3 40 27" src="https://user-images.githubusercontent.com/44383895/203486504-7b8559f3-f378-4d5d-b8b9-bf139113c4c4.png">
 
--> 매 조회를 하면 예매된 것이 확인됨.
+-> 예매 조회를 하면 예매된 것이 확인됨.
 
 > 본인이 예매한 영화에 대해서 영화명, 상영일, 상영관번호, 좌석번호 및 판매가격 정보를 보여주는 기능
 
-![](Aspose.Words.8477d8cf-82be-48ae-8403-497f3088581a.018.jpeg)
+<img width="1133" alt="스크린샷 2022-11-23 오후 3 40 34" src="https://user-images.githubusercontent.com/44383895/203486513-4776df8a-e26c-45d3-acb7-cbc8fef28f0c.png">
 
 -> 아이디를 입력하고 예매 조회 버튼을 누르면 매한 영화 정보가 조회됨 .
 
 > 위에서 표시된 예매 정보 중에서 하나를 “클릭 ”하면 해당 예매에 대해서 모든 상영일정 ,  상영관 ,  티켓에 대한 정보를 보여주는 기능
 
--> 
-
 > 본인이 예매한 영화에 대하여 조회하고 한 개 이상의 예매 정보를 "삭제"하는 기능
 
 [삭제전]
 
-![](Aspose.Words.8477d8cf-82be-48ae-8403-497f3088581a.019.jpeg)
+<img width="1133" alt="스크린샷 2022-11-23 오후 3 40 43" src="https://user-images.githubusercontent.com/44383895/203486551-7e4c6716-faa9-41a6-bb65-dbe0368bfd17.png">
 
-![](Aspose.Words.8477d8cf-82be-48ae-8403-497f3088581a.020.png)
+<img width="320" alt="스크린샷 2022-11-23 오후 3 40 51" src="https://user-images.githubusercontent.com/44383895/203486555-575a9518-81e7-4e9e-ad32-aad8158e464c.png">
 
 [삭제후]
 
-![](Aspose.Words.8477d8cf-82be-48ae-8403-497f3088581a.021.jpeg)
+<img width="1128" alt="스크린샷 2022-11-23 오후 3 40 56" src="https://user-images.githubusercontent.com/44383895/203486568-3f6af0e6-f755-4bd2-a353-473d3a041041.png">
 
 > 본인이 예매한 영화에 대하여 조회하여 다른 영화로 예매를 변경하는 기능
 
-![](Aspose.Words.8477d8cf-82be-48ae-8403-497f3088581a.022.png)
+<img width="565" alt="스크린샷 2022-11-23 오후 3 41 04" src="https://user-images.githubusercontent.com/44383895/203486582-81b82a03-999f-4ac9-9fa4-daf15f06939d.png">
 
 -> 범죄 도시 2에서 닥터스트레인지로 변경
 
-![](Aspose.Words.8477d8cf-82be-48ae-8403-497f3088581a.023.jpeg)
+<img width="1130" alt="스크린샷 2022-11-23 오후 3 41 11" src="https://user-images.githubusercontent.com/44383895/203486729-d53e52f6-b1b2-4f09-9ba0-ef547cf8ddf7.png">
 
 > 본인이 예매한 영화에 대하여 조회하여 다른 상영 일정으로 변경하는 기능
 
-![](Aspose.Words.8477d8cf-82be-48ae-8403-497f3088581a.024.jpeg)
+<img width="1133" alt="스크린샷 2022-11-23 오후 3 41 18" src="https://user-images.githubusercontent.com/44383895/203486741-7602d27e-9db5-4a7b-aa1b-10d7972bf7fa.png">
 
-![](Aspose.Words.8477d8cf-82be-48ae-8403-497f3088581a.025.png)
+<img width="712" alt="스크린샷 2022-11-23 오후 3 41 24" src="https://user-images.githubusercontent.com/44383895/203486769-4306fc2a-fa0f-4b29-9f6c-c0feb9b1384b.png">
 
 -> 예매 일정 변경
 
-![](Aspose.Words.8477d8cf-82be-48ae-8403-497f3088581a.026.jpeg)
+<img width="1133" alt="스크린샷 2022-11-23 오후 3 41 31" src="https://user-images.githubusercontent.com/44383895/203486785-6242dc71-99e4-4340-8ec3-a74ab99c199a.png">
